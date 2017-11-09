@@ -6,12 +6,7 @@ Type "copyright", "credits" or "license()" for more information.
 ['qq', '163', '126']
 >>> re.findall('\w+@(?:qq|163|126).com', y)
 ['123@qq.com', 'aaa@163.com', 'bbb@126.com']
->>> re.findall('\w+@\w+\.com')
-
-Traceback (most recent call last):
-  File "<pyshell#4>", line 1, in <module>
-    re.findall('\w+@\w+\.com')
-TypeError: findall() takes at least 2 arguments (1 given)
+>>>
 >>> re.findall('\w+@\w+\.com',y)
 ['123@qq.com', 'aaa@163.com', 'bbb@126.com']
 >>> y = 'tel:010-12345678 address:changanRoad'
