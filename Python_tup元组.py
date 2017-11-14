@@ -4,18 +4,10 @@ Type "copyright", "credits" or "license()" for more information.
 >>> tup2 = (1, 2, 3, 4, 5 );
 >>> tup3 = "a", "b", "c", "d";
 >>> tup1=()
->>> tup1(50,)
+>>> 
 
-Traceback (most recent call last):
-  File "<pyshell#4>", line 1, in <module>
-    tup1(50,)
-TypeError: 'tuple' object is not callable
->>>  tup1
- 
-  File "<pyshell#5>", line 2
-    tup1
-    ^
-IndentationError: unexpected indent
+
+
 >>> print tup1
 ()
 >>> tup1=('physics', 'chemistry', 1997, 2000);
@@ -59,14 +51,7 @@ NameError: name 'tup' is not defined
 5
 >>> ('Hi!')*4
 'Hi!Hi!Hi!Hi!'
->>> if 3 in tup2:
-	print Y
 
-
-Traceback (most recent call last):
-  File "<pyshell#31>", line 2, in <module>
-    print Y
-NameError: name 'Y' is not defined
 >>> if 3 in tup2:
 	print "Y"
 
