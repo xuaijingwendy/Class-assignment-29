@@ -4,7 +4,7 @@ Type "copyright", "credits" or "license()" for more information.
 >>> import urllib2
 >>> values={}
 >>> values['username']="2018933125@qq.com"
->>> values['password']="15251356767xaj"
+>>> values['password']="1....."
 >>> data=urllib.urlencode(ralues)
 
 Traceback (most recent call last):
