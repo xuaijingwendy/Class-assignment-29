@@ -30,3 +30,9 @@ content_pattern_d= re.compile('<div class="answer-diggers diggers" data-id="8542
 content_d = re.findall(content_pattern_d, html)
 for item in content_d:
     print item.replace('<span>', '').replace('</span>', '')
+input =raw_input()
+if input == "":
+    print "nextPage:"
+    continue
+elif input =="Q":
+    break
